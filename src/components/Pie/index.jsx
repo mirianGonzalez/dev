@@ -6,7 +6,8 @@ const Pie = () => {
     <>
       <footer className={styles.pie}>
         <img src={logo} alt="logo alura" />
-          <a href="https://github.com/mirianGonzalez" rel="noopener"><p>©Mirian Yolanda Gonzalez</p>
+          <a href="https://github.com/mirianGonzalez" rel="noopener">
+          <p>Realizado por:<h2>©Mirian Yolanda Gonzalez</h2></p>
          
           </a>
       </footer>
