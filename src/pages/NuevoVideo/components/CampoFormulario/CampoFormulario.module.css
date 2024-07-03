@@ -1,0 +1,57 @@
+.campo_formulario {
+  width: 40%;
+}
+
+.campo_formulario label {
+  display: block;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  margin: 15px 0;
+}
+
+.campo_formulario input {
+  height: 62px;
+  width: 100%;
+  border: 3px solid #262626;
+  background: transparent;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: #a5a5a5;
+}
+
+.campo_formulario input[type="submit"] {
+  width: 180px;
+  height: 54px;
+  margin-right: 10px;
+  border: 3px solid #2271d1;
+  border-radius: 10px;
+  background: transparent;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.campo_formulario input[type="reset"] {
+  width: 180px;
+  height: 54px;
+  border: 3px solid #ffffff;
+  border-radius: 10px;
+  background: transparent;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+}

@@ -1,0 +1,32 @@
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px 15px;
+}
+
+.contenedor h2{
+    font-size: 36px;
+    margin-bottom: 0;
+}
+
+.contenedor p{
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.contenedor img{
+    width: 400px;
+    margin-bottom: 130px;
+}
+
+/* Mobile: hasta 600px */
+@media (max-width: 768px) {
+    /* Tus estilos para celulares aquí */
+   .contenedor img{
+    width: 90%;
+   }
+  }
+  

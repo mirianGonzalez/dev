@@ -1,0 +1,17 @@
+.contenedor_principal {
+  background-color: #262626;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Tablet: entre 600px y 1024px */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* Tus estilos para tablet aquí */
+}
+
+/* Mobile: hasta 600px */
+@media (max-width: 768px) {
+  /* Tus estilos para celulares aquí */
+  .contenedor_principal {
+    margin-bottom: 100px;
+  }
+}

@@ -1,0 +1,84 @@
+.contenedor_card {
+  width: 420px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+  border: 5px solid #6bd1ff;
+}
+
+.contenedor_imagen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 235px;
+  overflow: hidden;
+  border-radius: 9px 9px 0 0;
+  cursor: pointer;
+}
+
+.imagen_video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 11px 11px 0 0;
+  text-align: center;
+  object-position: center;
+}
+
+.imagen_video:hover {
+  transform: scale(1.02);
+}
+
+.contenedor_opciones {
+  width: 420px;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 0 0 15px 15px;
+  border-top: 5px solid;
+}
+
+.borrar_card,
+.editar_card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.borrar_card:hover {
+  color: #ff0000;
+}
+
+.editar_card:hover {
+  color: #00ff00;
+}
+
+.iconos {
+  width: 25px;
+  height: 28px;
+}
+
+/* Tablet: entre 600px y 1024px */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* Tus estilos para tablet aquí */
+}
+
+/* Mobile: hasta 600px */
+@media (max-width: 768px) {
+  /* Tus estilos para celulares aquí */
+  .contenedor_card {
+    width: 350px;
+    height: 250px;
+  }
+
+  .contenedor_opciones {
+    width: 350px;
+  }
+}

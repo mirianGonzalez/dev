@@ -1,0 +1,48 @@
+.contenedor_titulo {
+  text-align: center;
+  color: #ffffff;
+}
+
+.contenedor_titulo h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 70.31px;
+  margin-top: 0;
+  text-align: center;
+  margin-bottom: 25px;
+  color: #f5f5f5;
+}
+
+.contenedor_titulo p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23.44px;
+  text-align: center;
+  color: #ffffff;
+}
+
+
+/* Tablet: entre 600px y 1024px */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* Tus estilos para tablet aquí */
+}
+
+/* Mobile: hasta 600px */
+@media (max-width: 768px) {
+  /* Tus estilos para celulares aquí */
+ .contenedor_titulo h2{
+  font-size: 40px;
+  line-height: 46.88px;
+  
+ }
+
+ .contenedor_titulo p{
+font-size: 15px;
+line-height: 17.58px;
+margin: 0 20px;
+
+ }
+  
+}

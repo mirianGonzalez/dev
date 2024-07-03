@@ -1,0 +1,136 @@
+.contenedor {
+  width: 100%;
+  height: 125px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #262626;
+  border-bottom: 4px solid #2271d1;
+  padding: 0 50px;
+  box-sizing: border-box;
+  box-shadow: 0px 5px 29px 0px #2271d1b2;
+  z-index: 30;
+}
+
+.logo {
+  width: 168px;
+  height: 40px;
+}
+
+.contenedor nav {
+  display: flex;
+  gap: 25px;
+}
+
+.iconos_nav{
+  display: none;
+}
+
+.enlaces{
+  text-decoration: none;
+}
+
+.boton_activo {
+  width: 180.13px;
+  height: 54px;
+  border-radius: 10px;
+  border: 2px solid #2271d1;
+  color: #2271d1;
+  background-color: #000000;
+  box-shadow: 0px 0px 12px 4px #2271d1 inset;
+
+  text-align: center;
+  align-content: center;
+  text-decoration: none;
+
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.boton_inactivo {
+  width: 180.13px;
+  height: 54px;
+  border-radius: 10px;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  background: transparent;
+
+  text-align: center;
+  align-content: center;
+  text-decoration: none;
+
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+/* Tablet: entre 600px y 1024px */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* Tus estilos para tablet aquí */
+}
+
+/* Mobile: hasta 600px */
+@media (max-width: 768px) {
+  /* Tus estilos para celulares aquí */
+
+  .contenedor {
+    position: fixed;
+    justify-content: center;
+    bottom: 0;
+    left: 0;
+    height: 100px;
+    background-color: #000000;
+    border-top: 4px solid #2271d1;
+    border-bottom: none;
+    padding: 0;
+  }
+  
+  .contenedor nav{
+    gap: 50px;
+    justify-content: center;
+  }
+
+  .contenedor nav Link{
+    text-decoration: none;
+  }
+
+  .logo{
+    display: none;
+  }
+
+  .iconos_nav{
+    display: inline;
+  }
+
+  .boton_inactivo span{
+    display: none;
+  }
+
+  .boton_activo img{
+    height: 30px;
+  }
+
+  .boton_activo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    background: #2271D13D;
+    box-shadow: none;
+    border-radius: 50px;
+    width: auto;
+    padding: 5px 20px;
+    text-decoration: none;
+
+  }
+
+  .boton_inactivo{
+      border: none;
+      width: 40px;
+  }
+}
